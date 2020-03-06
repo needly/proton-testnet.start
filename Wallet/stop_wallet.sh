@@ -10,7 +10,7 @@
 #
 ###############################################################################
 
-DIR="/opt/LynxTestNet/Wallet"
+DIR="/opt/ProtonTestnet/Wallet"
 
     if [ -f $DIR"/wallet.pid" ]; then
         pid=$(cat $DIR"/wallet.pid")

@@ -10,8 +10,8 @@
 #
 ###############################################################################
 
-NODEOSBINDIR="/opt/LynxTestNet/bin/bin"
-DATADIR="/opt/LynxTestNet/Wallet"
+NODEOSBINDIR="/opt/ProtonTestnet/bin/bin"
+DATADIR="/opt/ProtonTestnet/Wallet"
 WALLET_HOST="127.0.0.1"
 WALLET_POSRT="3000"
 
