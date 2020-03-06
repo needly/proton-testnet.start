@@ -177,7 +177,7 @@ Check if you can access you node using link http://you_server:8888/v1/chain/get_
 
 #### Run command below to get Contract Permissions    
   ```
-  cleos -u https://testnet.protonchain.com push action  dappreg '["youraccount"]' -p youraccount
+  cleos -u https://testnet.protonchain.com push action eosio.proton dappreg '["youraccount"]' -p youraccount
   ```
 
 ==============================================================================================  
@@ -232,7 +232,7 @@ Check if you can access you node using link http://you_server:8888/v1/chain/get_
 
 - Cleos commands:  
 
-Send 
+Send XPT
 ```
 ./cleos.sh transfer <your account> <receiver account> "1.0000 LNX" "test memo text"
 ```
