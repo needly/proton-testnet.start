@@ -225,7 +225,7 @@ Check if you can access you node using link http://you_server:8888/v1/chain/get_
 
 # 5. Usefull Information  
   
-# Proton Faucet - get free LNX tokens:  
+# Proton Faucet - get free XPT tokens:  
   https://monitor.testnet.protonchain.com/#faucet  
 
 # Other Tools/Examples  
@@ -234,7 +234,7 @@ Check if you can access you node using link http://you_server:8888/v1/chain/get_
 
 Send XPT
 ```
-./cleos.sh transfer <your account> <receiver account> "1.0000 LNX" "test memo text"
+./cleos.sh transfer <your account> <receiver account> "1.0000 XPT" "test memo text"
 ```
 Get Balance  
 ```
