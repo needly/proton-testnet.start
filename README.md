@@ -111,12 +111,8 @@ To upgrade precompiled installation pleasse folow the same steps as in 1.2 (Inst
 
 - In case you use a different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh  
 
-- to create an account on Proton test net go to <a target="_blank" href="https://monitor.testnet.protonchain.com/">monitor</a>  
-  Click <a target="_blank" href="https://monitor.testnet.protonchain.com/#createKey">“Create Keypair”</a> button located at the top left of the page, copy and save both public and private key.
-  also you can create key pair using cleos command  
-  `./cleos.sh create key`  
-  next Click <a target="_blank" href="https://monitor.testnet.protonchain.com/#account">“Create Account”</a> at the top left of the page, enter an account name, submit your previously saved public key in both Owner and Active Public Key field, complete the captcha, and hit create. 
-
+- Creat new account in protonwallet.
+  
 - If non BP node: use the same config, just comment out rows with producer-name and signature-provider  
   
 - Edit config.ini:  
