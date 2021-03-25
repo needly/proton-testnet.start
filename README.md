@@ -1,7 +1,7 @@
 # Welcome to the PROTON Testnet [manual node installation]
 
 Chain ID: e0a0743522e90db0a1802632b90fc48272957f9c32e4d35639d769546c10b763  
-Based on tag: v2.0.3  
+Based on tag: v2.0.11  
 
 Please join out PROTON Testnet <a target="_blank" href="https://t.me/">Telegram channel</a>  
 Network Monitor: https://monitor.testnet.protonchain.com/  
@@ -26,7 +26,7 @@ cd /opt/EOSIO
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout v2.0.3  
+git checkout v2.0.11  
 git submodule update --init --recursive   
 
 ./scripts/eosio_build.sh -P -y
@@ -37,11 +37,11 @@ B. Copy binaries to keep old versions and make sym link to latest:
 
 ```
 mkdir /opt/bin
-mkdir /opt/bin/v2.0.3
-cp /opt/EOSIO/eos/build/programs/nodeos/nodeos /opt/bin/v2.0.3/
-cp /opt/EOSIO/eos/build/programs/cleos/cleos /opt/bin/v2.0.3/
-cp /opt/EOSIO/eos/build/programs/keosd/keosd /opt/bin/v2.0.3/
-ln -sf /opt/bin/v2.0.3 /opt/bin/bin
+mkdir /opt/bin/v2.0.11
+cp /opt/EOSIO/eos/build/programs/nodeos/nodeos /opt/bin/v2.0.11/
+cp /opt/EOSIO/eos/build/programs/cleos/cleos /opt/bin/v2.0.11/
+cp /opt/EOSIO/eos/build/programs/keosd/keosd /opt/bin/v2.0.11/
+ln -sf /opt/bin/v2.0.11 /opt/bin/bin
 ```
 
 So /opt/bin/bin will point to latest binaries  
@@ -50,22 +50,22 @@ So /opt/bin/bin will point to latest binaries
 # 1.2 EOSIO - installing from precompiled binaries  
 
 A. Download the latest version of EOSIO for your OS from:  
-https://github.com/EOSIO/eos/releases/tag/v2.0.3   
-For example, for ubuntu 18.04 you need to download deb eosio_2.0.3-1-ubuntu-18.04_amd64.deb              
+https://github.com/EOSIO/eos/releases/tag/v2.0.11   
+For example, for ubuntu 18.04 you need to download deb eosio_2.0.11-1-ubuntu-18.04_amd64.deb              
 To install it you can use apt:  
 ```
-apt install ./eosio_2.0.3-1-ubuntu-18.04_amd64.deb   
+apt install ./eosio_2.0.11-1-ubuntu-18.04_amd64.deb   
 ```
-It will download all dependencies and install EOSIO to /usr/opt/eosio/v2.0.3  
+It will download all dependencies and install EOSIO to /usr/opt/eosio/v2.0.11  
 B. Copy binaries to keep old versions and make sym link to latest:  
 
 ```
  mkdir /opt/bin
- mkdir /opt/bin/v2.0.3
- cp /usr/opt/eosio/v2.0.3/bin/nodeos /opt/bin/v2.0.3/
- cp /usr/opt/eosio/v2.0.3/bin/cleos /opt/bin/v2.0.3/
- cp /usr/opt/eosio/v2.0.3/bin/keosd /opt/bin/v2.0.3/
- ln -sf /opt/bin/v2.0.3/ /opt/bin/bin
+ mkdir /opt/bin/v2.0.11
+ cp /usr/opt/eosio/v2.0.11/bin/nodeos /opt/bin/v2.0.11/
+ cp /usr/opt/eosio/v2.0.11/bin/cleos /opt/bin/v2.0.11/
+ cp /usr/opt/eosio/v2.0.11/bin/keosd /opt/bin/v2.0.11/
+ ln -sf /opt/bin/v2.0.11/ /opt/bin/bin
 ```
 
 So /opt/bin/bin will be point to latest binaries  
@@ -80,7 +80,7 @@ cd /opt/EOSIO/eos
 git checkout -f
 git branch -f
 git pull
-git checkout v2.0.3   
+git checkout v2.0.11   
 git submodule update --init --recursive   
 
 
@@ -88,11 +88,11 @@ git submodule update --init --recursive
 ./scripts/eosio_build.sh -P -y    
 
 
-mkdir /opt/bin/v2.0.3
-cp /opt/EOSIO/eos/build/programs/nodeos/nodeos /opt/bin/v2.0.3/
-cp /opt/EOSIO/eos/build/programs/cleos/cleos /opt/bin/v2.0.3/
-cp /opt/EOSIO/eos/build/programs/keosd/keosd /opt/bin/v2.0.3/
-ln -sf /opt/bin/v2.0.3 /opt/bin/bin
+mkdir /opt/bin/v2.0.11
+cp /opt/EOSIO/eos/build/programs/nodeos/nodeos /opt/bin/v2.0.11/
+cp /opt/EOSIO/eos/build/programs/cleos/cleos /opt/bin/v2.0.11/
+cp /opt/EOSIO/eos/build/programs/keosd/keosd /opt/bin/v2.0.11/
+ln -sf /opt/bin/v2.0.11 /opt/bin/bin
 ```  
 
 # 2.2 Update binaries  
