@@ -255,7 +255,19 @@ List staked/delegated
 
 **Hyperion History**  
 https://testnet.protonchain.com/v2/docs
-    
+
+**LightAPI and State track API**
+
+All fungible tokens, keys and resources for a user:
+```
+curl 'https://testnet-lightapi.eosams.xeos.me/api/account/protontest/jacob'
+```
+
+All SimpleAssets and dGoods belonging to the same user:
+```
+curl 'https://strack-dev.xeos.me/strack/tokens?network=protontest&account=jacob'
+```
+
 
 **Block Explorers**   
     
